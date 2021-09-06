@@ -13,6 +13,7 @@
 :root {
   --main-blue: #23226D;
   --contrast-blue: #696CFF;
+  --purple-bg: #3c3ebb;
 }
 
 html {
@@ -24,12 +25,12 @@ html {
   transition: background-color 0.3s ease-out;
 }
 
-.montserrat {
-  font-family: Montserrat;
+.purple-text {
+  color: var(--purple-bg);
 }
 
-.nunito {
-  font-family: Nunito;
+.montserrat {
+  font-family: Montserrat;
 }
 
 .logo {
@@ -64,7 +65,7 @@ html {
 }
 
 .purple-wrapper {
-  background: #3c3ebb no-repeat center center;
+  background: var(--purple-bg) no-repeat center center;
   -webkit-flex-direction: ;
   -ms-flex-direction: ;
   flex-direction: ;
